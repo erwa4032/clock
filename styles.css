@@ -1,0 +1,22 @@
+body {
+	background-color: blue;
+}
+
+h1 {
+	color: red;
+	font-family: comic sans MS;
+}
+
+div {
+	margin-top: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	background: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 500px;
+	padding-left: auto;
+	padding-right: auto;
+	border-radius: 30px;
+	text-align: center;
+}
