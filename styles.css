@@ -8,7 +8,8 @@ h1 {
 }
 
 div {
-	margin-top: 30%;
+	margin-top: 200px;
+	margin-bottom: 70%;
 	margin-left: auto;
 	margin-right: auto;
 	background: black;
@@ -19,4 +20,7 @@ div {
 	padding-right: auto;
 	border-radius: 30px;
 	text-align: center;
+	/* outline-color: white;
+	outline-width: 50px; */
+	border: 20px inset white;
 }
