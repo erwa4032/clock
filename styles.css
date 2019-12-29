@@ -1,5 +1,8 @@
 body {
-	background-color: blue;
+	background: linear-gradient(8deg, rgb(1, 1, 70) 30%, transparent 0%),
+		linear-gradient(-0.1deg, rgb(0, 0, 197) 50%, transparent 0%);
+	background-size: 20em 4em;
+	background-color: rgb(0, 110, 255);
 }
 
 h1 {
