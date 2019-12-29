@@ -31,7 +31,19 @@ function startTime() {
 	m = checkTime(m);
 	s = checkTime(s);
 	document.getElementById('number').innerHTML =
-		y + '/' + mo + '/' + d + '/' + h + ':' + m + ':' + s + '&nbsp&nbsp' + p_a;
+		y +
+		'&nbsp/&nbsp' +
+		mo +
+		'&nbsp/&nbsp' +
+		d +
+		'&nbsp/&nbsp' +
+		h +
+		'&nbsp:&nbsp' +
+		m +
+		'&nbsp:&nbsp' +
+		s +
+		'&nbsp&nbsp' +
+		p_a;
 	var t = setTimeout(startTime, 500);
 }
 function checkTime(ch) {
