@@ -25,18 +25,20 @@ function startTime() {
 	var m = today.getMinutes();
 	var s = today.getSeconds();
 	var p_a = myFunction();
+	y = checkTime(y);
 	mo = checkTime(mo);
 	d = checkTime(d);
 	h = h12();
+	h = checkTime(h);
 	m = checkTime(m);
 	s = checkTime(s);
 	document.getElementById('number').innerHTML =
 		y +
-		'&nbsp/&nbsp' +
+		'&nbsp-&nbsp' +
 		mo +
-		'&nbsp/&nbsp' +
+		'&nbsp-&nbsp' +
 		d +
-		'&nbsp/&nbsp' +
+		'&nbsp-&nbsp' +
 		h +
 		'&nbsp:&nbsp' +
 		m +
